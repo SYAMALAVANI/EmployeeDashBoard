@@ -1,92 +1,125 @@
 .header{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin:10px
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px
 }
 
 
 .pointer-cursor{
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .m-t-4{
-  margin-top:10px
+    margin-top:10px
 }
 
 .border-1{
-  border: 1px solid black;
+    border: 1px solid black;
 }
 
 
 .border-radius-12{
-  border-radius:12px;
+    border-radius:12px;
 }
 
 .align-center{
-  display: flex;
-  align-items: center;
-
+    display: flex;
+    align-items: center;
+  
 }
 
 .heading{
-  font-size:24px;
-  font-weight: bold;
+    font-size:24px;
+    font-weight: bold;
 }
 
 
 .add-new-emp{
-  border:1px solid black;
+    border:1px solid black;
 
-  padding: 12px;
+    padding: 12px;
 
 }
 
 .search-emp{
-  margin:10px
+    margin:10px
 }
 
 .searchText{
-  width:60vw;
-  padding:10px;
+    width:60vw;
+    padding:10px;
 }
 
 .employee-function{
-  display: flex;
-  flex-direction: row;
-  margin:10px
+    display: flex;
+    flex-direction: row;
+    margin:10px
 }
 
 .employee-list{
-  width:40vw;
-  margin-right:4px;
-  padding:12px;
-  display: flex;
-  flex-direction: column;
+    width:40vw;
+    margin-right:4px;
+    padding:12px;
+    display: flex;
+    flex-direction: column;
 }
 
 .employee-details{
-  width:60vw;
-  padding:12px
+    width:60vw;
+    padding:12px
 }
 
 .employee-name{
-  margin:4px;
-  padding: 6px;
-  text-align: center;
+    margin:4px;
+    padding: 6px;
+    text-align: center;
 }
 
 .hide{
-  display: none
+    display: none !important
 }
 
 .pop-up-window{
-  padding:20px;
-  position: absolute;
-  top: 50%;
-  width: 60vw;
-  left: 50%;
-  background: white;
-  z-index: 100;
-  transform: translate(-50%, -50%);
+    padding:20px;
+    position: absolute;
+    top: 50%;
+    width: 60vw;
+    left: 50%;
+    background: white;
+    z-index: 100;
+    transform: translate(-50%, -50%);
+}
+
+.employee-details{
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.emp-data{
+    padding:20px;
+    text-align: center;
+}
+
+.emp-func{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index:100
+}
+
+.icon-style{
+    font-size:24px;
+    padding: 0px 10px;
+
+}
+
+.icon-style:hover{
+    transform: scale(1.1);
 }
